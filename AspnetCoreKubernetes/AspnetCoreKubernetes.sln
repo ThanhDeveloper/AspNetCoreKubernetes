@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{097645A0-58F2-4D17-855C-809A370F5D80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{AC4DBB20-E6E6-4215-9981-53FC4FD5F64D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9728B58-8277-4137-BD9B-E05B4D05FF57}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2C4BE748-AE47-4713-9119-A9E5BC161FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{097645A0-58F2-4D17-855C-809A370F5D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097645A0-58F2-4D17-855C-809A370F5D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097645A0-58F2-4D17-855C-809A370F5D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097645A0-58F2-4D17-855C-809A370F5D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4DBB20-E6E6-4215-9981-53FC4FD5F64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4DBB20-E6E6-4215-9981-53FC4FD5F64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4DBB20-E6E6-4215-9981-53FC4FD5F64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4DBB20-E6E6-4215-9981-53FC4FD5F64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4BE748-AE47-4713-9119-A9E5BC161FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4BE748-AE47-4713-9119-A9E5BC161FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4BE748-AE47-4713-9119-A9E5BC161FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4BE748-AE47-4713-9119-A9E5BC161FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{097645A0-58F2-4D17-855C-809A370F5D80} = {A9728B58-8277-4137-BD9B-E05B4D05FF57}
+		{AC4DBB20-E6E6-4215-9981-53FC4FD5F64D} = {A9728B58-8277-4137-BD9B-E05B4D05FF57}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9F86A2A-1D6D-4668-8FF4-34FCC6415400}
+	EndGlobalSection
+EndGlobal
